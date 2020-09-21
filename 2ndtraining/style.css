@@ -1,0 +1,58 @@
+label[for="toggle"]{
+    position: fixed;
+    top: 20px;
+    left: 25px;
+    color: black;
+    z-index: 6;
+    font-size: 3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    text-shadow: 1px 1px 5px purple;
+}
+#icon2{
+    margin-left: 30vw;
+    display: none;
+}
+.nav-responsive,
+#toggle{
+    display: none;
+}
+#toggle:checked ~ .nav-responsive{
+    display: block;
+    left: 0vw;
+}
+
+.nav-responsive{
+    display: block;
+    background-image: linear-gradient(to top,#be93c5,#7bc6);
+    width: 40vw;
+    height: 100vh;
+    position: fixed;
+    left: -28vw;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    transition: left .5s ;
+}
+.nav-responsive ul{
+    display: block;
+    list-style: none;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 100px;
+    padding: 0;
+}
+.nav-responsive ul li{
+    width: 100%;
+    margin: 10px 50px 10px 0px;
+    border-bottom: 1px solid  rgba(14, 14, 56, 0.151);
+}
+.nav-responsive ul li a{
+    /* padding: 50px 20px 20px 30px; */
+    color: rgb(17, 17, 71);
+    text-decoration: none;
+    text-transform: capitalize;
+}
