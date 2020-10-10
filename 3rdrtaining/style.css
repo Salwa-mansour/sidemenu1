@@ -1,0 +1,48 @@
+label[for="toggle"]{
+    position: fixed;
+    top: 20px;
+    left: 25px;
+    color: black;
+    z-index: 6;
+    font-size: 3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    text-shadow: 1px 1px 5px purple;
+}
+/* .nav-responsive, */
+#toggle{
+    display: none;
+}
+.nav-responsive{
+    display: block;
+    background-image: linear-gradient(to top,#be93c5,#7bc6);
+    width: 40vw;
+    height: 100vh;
+    position: fixed;
+    left: -28vw;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    transition: left .5s;
+  
+    
+}
+
+#toggle:checked ~ .nav-responsive{
+    display: block;
+    left: 0;
+}
+.nav-responsive ul{
+    /* width: inherit; */
+    left: inherit;
+    display: block;
+    list-style: none;
+    line-height: 2;
+    margin-top: 100px ;
+    outline: 1px solid red;
+}
+.nav-responsive ul li{
+    width: 100%;
+    margin: 10px;
+    border-bottom: 1px solid rgba(14, 14, 56, 0.151);
+}

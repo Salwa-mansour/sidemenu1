@@ -1,4 +1,4 @@
-/* https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978 */
+;/* https://medium.com/@lizfaria/create-a-responsive-dropdown-menu-in-html-css-in-ten-steps-fdb4aa906978 */
 label[for="toggle"]{
     position: fixed;
     top: 25px;
@@ -50,7 +50,7 @@ label[for="toggle"]{
 .nav-responsive ul li{
    
     width: 100%;
-    margin: 10px 500px 10px 0px;
+    margin: 10px 50px 10px 0px;
     padding: 0;
     border-bottom: 1px solid  rgba(14, 14, 56, 0.151);
   
@@ -59,7 +59,7 @@ label[for="toggle"]{
     padding: 50px 20px 50px 30px;
     color:  rgb(17, 17, 71); 
     text-decoration: none;
-    padding: 50px 20px 50px 30px;
+    /*padding: 50px 20px 50px 30px;*/
     text-transform: capitalize;
 
 }
